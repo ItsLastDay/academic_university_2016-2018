@@ -1,0 +1,30 @@
+S
+S = '(' S ')' | S S | eps
+
+*****term right
+S
+(ADDED = '('
+)ADDED = ')'
+S = (ADDED S )ADDED | S S | eps
+
+*****w/o eps
+SNEW
+(ADDED = '('
+)ADDED = ')'
+S = (ADDED )ADDED | (ADDED S )ADDED | S | S | S S
+SNEW = S | eps
+
+*****chain rules
+SNEW
+(ADDED = '('
+)ADDED = ')'
+S = (ADDED )ADDED | (ADDED S )ADDED | S S
+SNEW = eps | (ADDED )ADDED | (ADDED S )ADDED | S S
+
+*****unused rules
+SNEW
+(ADDED = '('
+)ADDED = ')'
+S = (ADDED )ADDED | (ADDED S )ADDED | S S
+SNEW = eps | (ADDED )ADDED | (ADDED S )ADDED | S S
+

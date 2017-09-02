@@ -1,0 +1,54 @@
+2017-03-17 11:48:47,205 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 11:48:47,207 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 11:48:58,028 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 11:48:58,031 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 11:59:22,330 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 11:59:22,334 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 11:59:46,542 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 11:59:46,546 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 11:59:46,546 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:00:30,344 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 12:00:30,361 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:00:30,361 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:00:30,362 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:01:14,386 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:01:14,386 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:03:37,030 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 12:03:37,033 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:03:37,033 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:03:37,033 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:05:26,414 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:05:26,414 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:05:45,396 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 12:05:45,398 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:05:45,398 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:05:45,399 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:08:31,846 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:08:31,846 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:14:52,489 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:14:52,490 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:14:52,490 DEBUG r.s.m.LoggingExample [main] This is debug - should *not* be visible.
+2017-03-17 12:14:52,490 TRACE r.s.m.LoggingExample [main] This is trace - should *not* be visible.
+2017-03-17 12:16:16,179 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:16:16,180 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:17:56,583 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 12:17:56,586 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:17:56,586 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:17:56,587 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:18:18,549 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 12:18:18,551 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:18:18,551 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:18:18,551 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:22:29,330 ERROR r.s.m.LoggingExample [main] This is a error - should be in console, but not in file.
+2017-03-17 12:22:29,332 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:22:29,332 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:22:29,333 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:23:38,420 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:23:38,421 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:23:38,421 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:23:51,905 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:23:51,905 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:23:51,906 WARN r.s.m.LoggingExample [main] This is warn - should be in file.
+2017-03-17 12:24:13,805 FATAL r.s.m.LoggingExample [main] This is a fatal - should be in file.
+2017-03-17 12:24:13,806 INFO r.s.m.LoggingExample [main] This is info - should be in file.
+2017-03-17 12:24:13,806 WARN r.s.m.LoggingExample [main] This is warn - should be in file.

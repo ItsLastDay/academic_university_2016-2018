@@ -1,0 +1,10 @@
+S
+S = eps | LOL
+LOL = X Y | NOWAY
+X = eps
+Y = eps
+QWERTY = eps
+K = K A
+A = B
+B = C
+C = D

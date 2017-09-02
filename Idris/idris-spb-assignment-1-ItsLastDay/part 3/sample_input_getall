@@ -1,0 +1,13 @@
+S ISI
+S IIISIS
+A 0 1 2 "Mike" 3 "Koltsov"
+A 1 1 2 "Vasil"5"Pupkin"
+A 3 2 -45 "asdsaD" 6 "asdasdasdas asdas das asd"
+A 1 1 0 "last" 34 "entry"
+G
+C
+S IBBSIS
+A 0 False True "Mike" 3 "Koltsov"
+A 1 True False "Vasil"-5"Pupkin sdfsdf"
+G
+Q

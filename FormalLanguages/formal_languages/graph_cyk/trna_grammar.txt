@@ -1,0 +1,8 @@
+START
+ANY = 'a' | 'c' | 'g' | 't'
+TWO_ANY = ANY ANY
+CIRCLE = TWO_ANY | ANY TWO_ANY | TWO_ANY TWO_ANY
+BRANCH_INNER =   'a' CIRCLE 'c' | 'c' CIRCLE 'a' | 'g' CIRCLE 't' | 't' CIRCLE 'g'
+BRANCH =   'a' BRANCH_INNER 'c' | 'a' BRANCH 'c' | 'c' BRANCH_INNER 'a' | 'c' BRANCH 'a' | 'g' BRANCH_INNER 't' | 'g' BRANCH 't' | 't' BRANCH_INNER 'g' | 't' BRANCH 'g'
+START_INNER =   'a' BRANCH BRANCH BRANCH 'c' | 'c' BRANCH BRANCH BRANCH 'a' | 'g' BRANCH BRANCH BRANCH 't' | 't' BRANCH BRANCH BRANCH 'g'
+START =   'a' START_INNER 'c' | 'a' START 'c' | 'c' START_INNER 'a' | 'c' START 'a' | 'g' START_INNER 't' | 'g' START 't' | 't' START_INNER 'g' | 't' START 'g'
