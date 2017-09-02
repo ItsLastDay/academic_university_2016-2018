@@ -7,12 +7,12 @@ visitor and singleton design patterns, multithreading, serialization, static and
 exception guarantees, ... .
 
 Interesting tasks (with links to my implementation):
-- [graph](https://github.com/ItsLastDay/academic_university_2016-2018/tree/master/C%2B%2B/semester_2/hw1/src) library. Supports filtering edges\vertices by predicate, finding shortest paths and invoke callback along it.
 - [thread pool](https://github.com/ItsLastDay/academic_university_2016-2018/tree/master/C%2B%2B/semester_2/hw3/src): submit tasks to fixed pool of threads
 - [caching allocator](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/C%2B%2B/semester_2/exam2/src/au_allocator.h) for small objects
-- [huffman algorithm](https://github.com/ItsLastDay/academic_university_2016-2018/tree/master/C%2B%2B/semester_1/hw1/src) with serialization of resulting tree
 - [big integer](https://github.com/ItsLastDay/academic_university_2016-2018/tree/master/C%2B%2B/semester_1/hw2) library. Supports sharing of internal buffers between instances
 - [any](https://github.com/ItsLastDay/academic_university_2016-2018/tree/master/C%2B%2B/semester_1/hw3/src) (like boost::any)
+- [graph](https://github.com/ItsLastDay/academic_university_2016-2018/tree/master/C%2B%2B/semester_2/hw1/src) library. Supports filtering edges\vertices by predicate, finding shortest paths and invoke callback along it.
+- [huffman algorithm](https://github.com/ItsLastDay/academic_university_2016-2018/tree/master/C%2B%2B/semester_1/hw1/src) with serialization of resulting tree
 - simple [associative array](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/C%2B%2B/semester_1/test_3/src/au_map.h) (like std::map), but with worse complexity
 - simple [deque](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/C%2B%2B/semester_1/test_4/src/deque.h) with strict requirements to time\space complexity
 - simple [signal](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/C%2B%2B/semester_2/test_5/3/src/signal.hpp) library: register and invoke callbacks
