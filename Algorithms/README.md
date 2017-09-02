@@ -17,6 +17,7 @@ Notable Data structures implemented (with links to my implementation):
   - [persistent treap](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/j_pers_dd.cpp)
   - [treap](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/i.cpp)
   - [treap with deferred update](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/f.cpp)
+- [trie](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_3/n.cpp)  
 
 
 
@@ -30,3 +31,8 @@ Notable Algorithms implemented:
   - [Breadth-First search](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_1/contest_3/i.cpp)
   - [Dijskstra algorithm](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/b.cpp)
 - [2-SAT](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_1/contest_3/j.cpp)  
+- [Gaussian elimination](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_2/a.cpp): finding rank, finding inverse matrix
+- [polynomial hashing](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_2/c.cpp)
+- [fast Fourier transformation](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_2/h.cpp)
+- [maximum flow in graph](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_2/j.cpp)
+- [suffix array](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_3/b.cpp)
