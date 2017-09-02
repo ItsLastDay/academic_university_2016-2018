@@ -1,0 +1,7 @@
+
+
+// TODO: if scheduling is implemented, 
+// implement `preempt_disable\enable` as well.
+// http://www.makelinux.net/books/lkd2/ch09lev1sec9
+// http://lxr.linux.no/linux+v3.6.6/Documentation/preempt-locking.txt#L117
+
