@@ -1,0 +1,46 @@
+Training on all 58 features
+
+Criterion: gini
+depth=2: 85.12486427795875% accuracy
+depth=3: 88.81650380021715% accuracy
+depth=4: 89.90228013029315% accuracy
+depth=5: 91.09663409337676% accuracy
+depth=6: 90.87947882736157% accuracy
+depth=7: 91.31378935939196% accuracy
+depth=8: 91.96525515743757% accuracy
+depth=9: 92.39956568946796% accuracy
+depth=10: 92.72529858849077% accuracy
+
+Criterion: entropy
+depth=2: 85.12486427795875% accuracy
+depth=3: 86.31921824104235% accuracy
+depth=4: 90.66232356134635% accuracy
+depth=5: 91.53094462540716% accuracy
+depth=6: 91.42236699239956% accuracy
+depth=7: 92.39956568946796% accuracy
+depth=8: 92.18241042345277% accuracy
+depth=9: 92.50814332247556% accuracy
+depth=10: 92.50814332247556% accuracy
+Taking only top 10 features (by AUC)
+
+Criterion: gini
+depth=2: 80.99891422366993% accuracy
+depth=3: 84.79913137893594% accuracy
+depth=4: 86.75352877307276% accuracy
+depth=5: 86.86210640608036% accuracy
+depth=6: 86.64495114006515% accuracy
+depth=7: 88.16503800217154% accuracy
+depth=8: 87.83930510314875% accuracy
+depth=9: 87.73072747014115% accuracy
+depth=10: 86.75352877307276% accuracy
+
+Criterion: entropy
+depth=2: 80.13029315960912% accuracy
+depth=3: 86.21064060803475% accuracy
+depth=4: 86.53637350705755% accuracy
+depth=5: 86.97068403908796% accuracy
+depth=6: 87.40499457111835% accuracy
+depth=7: 87.83930510314875% accuracy
+depth=8: 87.07926167209556% accuracy
+depth=9: 87.18783930510315% accuracy
+depth=10: 87.73072747014115% accuracy

@@ -1,0 +1,24 @@
+Training on all 58 features
+
+Criterion: gini
+depth=2: 85.12486427795875% accuracy
+depth=3: 88.81650380021715% accuracy
+depth=4: 89.90228013029315% accuracy
+depth=5: 90.98805646036917% accuracy
+depth=6: 90.77090119435395% accuracy
+depth=7: 91.20521172638436% accuracy
+depth=8: 92.39956568946796% accuracy
+depth=9: 91.96525515743757% accuracy
+depth=10: 92.29098805646036% accuracy
+
+Criterion: entropy
+depth=2: 85.12486427795875% accuracy
+depth=3: 86.31921824104235% accuracy
+depth=4: 90.66232356134635% accuracy
+depth=5: 91.63952225841476% accuracy
+depth=6: 91.53094462540716% accuracy
+depth=7: 92.50814332247556% accuracy
+depth=8: 92.18241042345277% accuracy
+depth=9: 92.50814332247556% accuracy
+depth=10: 92.39956568946796% accuracy
+
