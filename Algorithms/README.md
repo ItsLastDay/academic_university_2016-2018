@@ -5,15 +5,15 @@ or [TopCoder](https://www.topcoder.com/tc?module=ProblemArchive).
 
 Notable Data structures implemented (with links to my implementation):
 - [heap](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/implementations/heap.cpp)
-- [quad tree](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/implementations/quadtree.py)
 - segment tree
   - [segment tree](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_1/contest_2/c.cpp)
   - [persistent segment tree](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_1/contest_2/e.cpp)
   - [segment tree with deferred update](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_1/contest_2/l.cpp)
- - treap
+- treap
   - [persistent treap](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/j_pers_dd.cpp)
   - [treap](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/i.cpp)
   - [treap with deferred update](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/f.cpp)
+- [quad tree](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/implementations/quadtree.py)
 - [disjoint set union](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/c.cpp)
 - [trie](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_3/n.cpp)  
 - [sparse table](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Algorithms/semester_2/contest_1/a.cpp)
