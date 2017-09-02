@@ -1,0 +1,9 @@
+syntax="proto3";
+
+message ChatMsg {
+    string msg = 1;
+}
+
+service Chat {
+    rpc ChatSession(stream ChatMsg) returns (stream ChatMsg) {} 
+}

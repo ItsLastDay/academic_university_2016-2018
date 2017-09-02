@@ -1,0 +1,181 @@
+root            INFO     MainProcess Hero placed at Position(x=14, y=0)
+root            INFO     MainProcess New map of size (17, 35) generated
+root            INFO     MainProcess Enter column: 14
+root            INFO     MainProcess Hero enters a new map
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=33, y=4)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=17, y=0)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=29, y=7)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=7, y=10)
+root            INFO     MainProcess New item "WearableItem(BODY)" generated on position Position(x=27, y=12)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=6, y=4)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=32, y=5)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=23, y=5)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=13, y=16)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=2, y=11)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=24, y=7)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=19, y=15)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=11, y=15)
+root            INFO     MainProcess New item "WearableItem(HEAD)" generated on position Position(x=2, y=7)
+root            INFO     MainProcess New item "WearableItem(RIGHT_HAND)" generated on position Position(x=10, y=7)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=21, y=11)
+root            INFO     MainProcess New item "WearableItem(RIGHT_HAND)" generated on position Position(x=1, y=12)
+root            INFO     MainProcess New item "WearableItem(BODY)" generated on position Position(x=10, y=15)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=1, y=0)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=5, y=2)
+root            INFO     MainProcess New item "WearableItem(HEAD)" generated on position Position(x=32, y=2)
+root            INFO     MainProcess New item "WearableItem(LEFT_HAND)" generated on position Position(x=26, y=8)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=20, y=6)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=28, y=7)
+root            INFO     MainProcess New item "WearableItem(LEFT_HAND)" generated on position Position(x=26, y=15)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=2, y=4)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=30, y=6)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=28, y=3)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=1, y=4)
+root            INFO     MainProcess New item "WearableItem(RIGHT_HAND)" generated on position Position(x=23, y=0)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=6, y=6)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=10, y=12)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=31, y=8)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=26, y=3)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=12, y=1)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=19, y=9)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=21, y=7)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=24, y=13)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=31, y=7)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=33, y=12)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=12, y=0)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=28, y=4)
+root            INFO     MainProcess New item "WearableItem(HEAD)" generated on position Position(x=30, y=14)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=2, y=9)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=26, y=7)
+root            INFO     MainProcess New item "WearableItem(BODY)" generated on position Position(x=16, y=9)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=7, y=0)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=3, y=8)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=21, y=0)
+root            INFO     MainProcess New item "WearableItem(RIGHT_HAND)" generated on position Position(x=20, y=5)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=19, y=16)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=13, y=0)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=26, y=1)
+root            INFO     MainProcess New item "WearableItem(HEAD)" generated on position Position(x=28, y=10)
+root            INFO     MainProcess New item "WearableItem(HEAD)" generated on position Position(x=13, y=2)
+root            INFO     MainProcess New item "WearableItem(LEFT_HAND)" generated on position Position(x=21, y=10)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=9, y=3)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=9, y=9)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=15, y=5)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=34, y=2)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=4, y=14)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=16, y=0)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=4, y=2)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=16, y=15)
+root            INFO     MainProcess New item "WearableItem(LEFT_HAND)" generated on position Position(x=30, y=2)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=23, y=14)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=9, y=2)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=23, y=4)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=30, y=0)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=4, y=15)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=15, y=15)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=15, y=4)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=34, y=1)
+root            INFO     MainProcess New item "WearableItem(BODY)" generated on position Position(x=1, y=3)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=31, y=14)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=16, y=3)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=33, y=1)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=1, y=6)
+root            INFO     MainProcess New item "WearableItem(HEAD)" generated on position Position(x=20, y=0)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=27, y=11)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=28, y=1)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=7, y=6)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=15, y=16)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=20, y=9)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=6, y=14)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=14, y=13)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=7, y=9)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=6, y=9)
+root            INFO     MainProcess New item "WearableItem(LEGS)" generated on position Position(x=33, y=16)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=9, y=0)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=30, y=16)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=7, y=16)
+root            INFO     MainProcess New item "InstantItem(HEAL_POTION)" generated on position Position(x=19, y=13)
+root            INFO     MainProcess New item "Spell(TELEPORT)" generated on position Position(x=31, y=13)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=12, y=15)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=10, y=5)
+root            INFO     MainProcess New item "InstantItem(MANA_POTION)" generated on position Position(x=1, y=10)
+root            INFO     MainProcess New item "WearableItem(RIGHT_HAND)" generated on position Position(x=2, y=0)
+root            INFO     MainProcess New item "Spell(HEAL)" generated on position Position(x=7, y=8)
+root            INFO     MainProcess New item "WearableItem(HEAD)" generated on position Position(x=9, y=12)
+root            INFO     MainProcess New monster "Monster(ZOMBIE)" generated on position Position(x=14, y=5)
+root            INFO     MainProcess New monster "Monster(ZOMBIE)" generated on position Position(x=7, y=1)
+root            INFO     MainProcess New monster "Monster(ZOMBIE)" generated on position Position(x=7, y=11)
+root            INFO     MainProcess New monster "Monster(FLY)" generated on position Position(x=33, y=2)
+root            INFO     MainProcess New monster "Monster(DRAGON)" generated on position Position(x=0, y=14)
+root            INFO     MainProcess New monster "Monster(FLY)" generated on position Position(x=15, y=14)
+root            INFO     MainProcess New monster "Monster(FLY)" generated on position Position(x=9, y=7)
+root            INFO     MainProcess New monster "Monster(FLY)" generated on position Position(x=12, y=9)
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_RESIZE was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing KEY_RESIZE
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Hero could not move from Position(x=14, y=0) in direction ShiftDirection(dx=0, dy=1)
+root            INFO     MainProcess Key KEY_UP was pressed
+root            INFO     MainProcess Hero could not move from Position(x=14, y=0) in direction ShiftDirection(dx=0, dy=-1)
+root            INFO     MainProcess Key a was pressed
+root            INFO     MainProcess Key q was pressed
+root            INFO     MainProcess Key k was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing k
+root            INFO     MainProcess Key l was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing l
+root            INFO     MainProcess Key j was pressed
+root            INFO     MainProcess Hero thinks about existence while pressing j
+root            INFO     MainProcess Key KEY_LEFT was pressed
+root            INFO     MainProcess Item InstantItem(HEAL_POTION) acquired
+root            INFO     MainProcess Key KEY_LEFT was pressed
+root            INFO     MainProcess Item Spell(HEAL) acquired
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Item Spell(HEAL) acquired
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Key KEY_RIGHT was pressed
+root            INFO     MainProcess Item WearableItem(HEAD) acquired
+root            INFO     MainProcess Key w was pressed
+root            INFO     MainProcess Used health potion
+root            INFO     MainProcess Key w was pressed
+root            INFO     MainProcess Used health spell
+root            INFO     MainProcess Key w was pressed
+root            INFO     MainProcess Used health spell
+root            INFO     MainProcess Key w was pressed
+root            INFO     MainProcess Now wearing WearableItem(HEAD) at HEAD
+root            INFO     MainProcess Key w was pressed
+root            INFO     MainProcess Could not use item: empty inventory
+root            INFO     MainProcess Key w was pressed
+root            INFO     MainProcess Could not use item: empty inventory
+root            INFO     MainProcess Key KEY_LEFT was pressed
+root            INFO     MainProcess Key KEY_UP was pressed
+root            INFO     MainProcess Key KEY_LEFT was pressed
+root            INFO     MainProcess Key KEY_LEFT was pressed
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Monster MonsterType.FLY attacks hero
+root            INFO     MainProcess Monster hits player for 757.0 hitpoints
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Key KEY_DOWN was pressed
+root            INFO     MainProcess Monster MonsterType.FLY attacks hero
+root            INFO     MainProcess Monster hits player for 295.0 hitpoints

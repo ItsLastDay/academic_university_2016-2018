@@ -1,0 +1,17 @@
+language: python
+
+python:
+    - "3.6"
+
+before_script:
+    export PYTHONPATH=$PYTHONPATH:$(readlink -f ./roguelike/src)
+
+script: coverage run -m unittest discover -s ./roguelike/src/tests
+
+before_install:
+    - pip install pylint
+    - pip install codecov
+
+after_success:
+    - codecov
+    - pylint --no-docstring-rgx=_* ./roguelike/src/roguelike

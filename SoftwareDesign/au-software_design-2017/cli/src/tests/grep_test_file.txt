@@ -1,0 +1,10 @@
+This is a test file
+
+for mega-grep
+really cool
+so much
+
+all
+
+bye world
+BYE world

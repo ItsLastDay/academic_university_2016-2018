@@ -1,0 +1,12 @@
+build: false
+
+environment:
+    matrix:
+        - PYTHON: "C:\\Python36"
+          PYTHON_VERSION: "3.6.0"
+          PYTHON_ARCH: "64"
+
+before_test:
+    - CD ./roguelike/src
+test_script:
+    - "%PYTHON%/python -m unittest discover -s ./tests"
