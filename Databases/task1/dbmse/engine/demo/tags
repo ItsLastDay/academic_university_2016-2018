@@ -1,0 +1,153 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-leak-check	../demo/makefile	/^	valgrind --leak-check=full --track-origins=yes .\/demo$/;"	m
+BaseQueryFactory	../interface/interface.h	/^class BaseQueryFactory$/;"	c
+BaseTable	../interface/interface.h	/^  BaseTable():relpath(""), vtypes(NULL), nbAttr(0){}$/;"	f	struct:BaseTable
+BaseTable	../interface/interface.h	/^  BaseTable(BaseTable* t): relpath(t->relpath), nbAttr(t->nbAttr){$/;"	f	struct:BaseTable
+BaseTable	../interface/interface.h	/^  BaseTable(const BaseTable& t): relpath(t.relpath), nbAttr(t.nbAttr){$/;"	f	struct:BaseTable
+BaseTable	../interface/interface.h	/^struct BaseTable{$/;"	s
+CC	../demo/makefile	/^CC=g++$/;"	m
+CXXFLAGS	../demo/makefile	/^CXXFLAGS=-std=c++11 -g -O0$/;"	m
+EC_ERROR	../interface/interface.h	/^  EC_ERROR$/;"	e	enum:ErrCode
+EC_FINISH	../interface/interface.h	/^  EC_FINISH,$/;"	e	enum:ErrCode
+EC_OK	../interface/interface.h	/^  EC_OK,$/;"	e	enum:ErrCode
+ErrCode	../interface/interface.h	/^enum ErrCode{$/;"	g
+ExecuteQuery	../demo/demo.cpp	/^void ExecuteQuery(PResultNode* query){$/;"	f
+FreeBaseTable	../demo/demo.cpp	/^void FreeBaseTable(BaseTable* bt){$/;"	f
+GetAttrNum	../demo/pcrossproductnode.cpp	/^int PCrossProductNode::GetAttrNum(){$/;"	f	class:PCrossProductNode
+GetAttrNum	../demo/pjoinnode.cpp	/^int PJoinNode::GetAttrNum(){$/;"	f	class:PJoinNode
+GetAttrNum	../demo/pselectnode.cpp	/^int PSelectNode::GetAttrNum(){$/;"	f	class:PSelectNode
+GetBaseTable	../interface/interface.cpp	/^BaseTable* LSelectNode::GetBaseTable(){$/;"	f	class:LSelectNode
+GetBaseTable1	../demo/demo.cpp	/^BaseTable* GetBaseTable1(){$/;"	f
+GetBaseTable2	../demo/demo.cpp	/^BaseTable* GetBaseTable2(){$/;"	f
+GetLeft	../interface/interface.cpp	/^LAbstractNode* LAbstractNode::GetLeft(){$/;"	f	class:LAbstractNode
+GetNext	../demo/pcrossproductnode.cpp	/^std::vector<int>* PCrossProductNode::GetNext(){$/;"	f	class:PCrossProductNode
+GetNext	../demo/pgetnextnode.cpp	/^std::vector<int>* PGetNextNode::GetNext(){$/;"	f	class:PGetNextNode
+GetNext	../demo/pjoinnode.cpp	/^std::vector<int>* PJoinNode::GetNext(){$/;"	f	class:PJoinNode
+GetNext	../demo/pselectnode.cpp	/^std::vector<int>* PSelectNode::GetNext(){$/;"	f	class:PSelectNode
+GetNextPredicate	../interface/interface.cpp	/^int LSelectNode::GetNextPredicate(Predicate** p){$/;"	f	class:LSelectNode
+GetRecord	../demo/pcrossproductnode.cpp	/^ErrCode PCrossProductNode::GetRecord(){$/;"	f	class:PCrossProductNode
+GetRecord	../demo/pjoinnode.cpp	/^ErrCode PJoinNode::GetRecord(){$/;"	f	class:PJoinNode
+GetRecord	../demo/pselectnode.cpp	/^ErrCode PSelectNode::GetRecord(){$/;"	f	class:PSelectNode
+GetRight	../interface/interface.cpp	/^LAbstractNode* LAbstractNode::GetRight(){$/;"	f	class:LAbstractNode
+GetValuePos	../demo/pcrossproductnode.cpp	/^Value* PCrossProductNode::GetValuePos(){$/;"	f	class:PCrossProductNode
+GetValuePos	../demo/pjoinnode.cpp	/^Value* PJoinNode::GetValuePos(){$/;"	f	class:PJoinNode
+GetValuePos	../demo/pselectnode.cpp	/^Value* PSelectNode::GetValuePos(){$/;"	f	class:PSelectNode
+INTERFACE_H	../interface/interface.h	6;"	d
+Initialize	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::Initialize(){$/;"	f	class:PCrossProductNode
+Initialize	../demo/pgetnextnode.cpp	/^void PGetNextNode::Initialize(){$/;"	f	class:PGetNextNode
+Initialize	../demo/pjoinnode.cpp	/^void PJoinNode::Initialize(){$/;"	f	class:PJoinNode
+Initialize	../demo/pselectnode.cpp	/^void PSelectNode::Initialize(){$/;"	f	class:PSelectNode
+LAbstractNode	../interface/interface.cpp	/^LAbstractNode::LAbstractNode(LAbstractNode* left, LAbstractNode* right){$/;"	f	class:LAbstractNode
+LAbstractNode	../interface/interface.h	/^class LAbstractNode{$/;"	c
+LCrossProductNode	../interface/interface.cpp	/^LCrossProductNode::LCrossProductNode(LAbstractNode *left, LAbstractNode *right): LAbstractNode(left, right)$/;"	f	class:LCrossProductNode
+LCrossProductNode	../interface/interface.h	/^class LCrossProductNode : public LAbstractNode{$/;"	c
+LJoinNode	../interface/interface.cpp	/^LJoinNode::LJoinNode(LAbstractNode* left, LAbstractNode* right,$/;"	f	class:LJoinNode
+LJoinNode	../interface/interface.h	/^class LJoinNode : public LAbstractNode{$/;"	c
+LProjectNode	../interface/interface.h	/^class LProjectNode : public LAbstractNode{$/;"	c
+LSelectNode	../interface/interface.cpp	/^LSelectNode::LSelectNode(BaseTable* table,$/;"	f	class:LSelectNode
+LSelectNode	../interface/interface.h	/^class LSelectNode : public LAbstractNode{$/;"	c
+MAX_BYTE_SIZE	../demo/pgetnextnode.h	/^    const size_t MAX_BYTE_SIZE = 5;$/;"	m	class:PGetNextNode
+OBJ	../demo/makefile	/^OBJ=..\/interface\/interface.o pgetnextnode.o pselectnode.o pjoinnode.o demo.o pcrossproductnode.o$/;"	m
+PCrossProductNode	../demo/pcrossproductnode.cpp	/^PCrossProductNode::PCrossProductNode(PGetNextNode *left, PGetNextNode *right)$/;"	f	class:PCrossProductNode
+PCrossProductNode	../demo/pcrossproductnode.h	/^class PCrossProductNode: public PGetNextNode $/;"	c
+PGETNEXTNODE_H	../demo/pgetnextnode.h	5;"	d
+PGetNextNode	../demo/pgetnextnode.cpp	/^PGetNextNode::PGetNextNode(): PResultNode(NULL, NULL){$/;"	f	class:PGetNextNode
+PGetNextNode	../demo/pgetnextnode.h	/^class PGetNextNode : public PResultNode{$/;"	c
+PJOINNODE_H	../demo/pjoinnode.h	5;"	d
+PJoinNode	../demo/pjoinnode.cpp	/^PJoinNode::PJoinNode(PGetNextNode* left, PGetNextNode* right){$/;"	f	class:PJoinNode
+PJoinNode	../demo/pjoinnode.h	/^class PJoinNode : public PGetNextNode{$/;"	c
+PResultNode	../interface/interface.cpp	/^PResultNode::PResultNode(PResultNode* left, PResultNode* right){$/;"	f	class:PResultNode
+PResultNode	../interface/interface.h	/^class PResultNode{$/;"	c
+PSELECTNODE_H	../demo/pselectnode.h	5;"	d
+PSelectNode	../demo/pselectnode.cpp	/^PSelectNode::PSelectNode(){}$/;"	f	class:PSelectNode
+PSelectNode	../demo/pselectnode.cpp	/^PSelectNode::PSelectNode(BaseTable* table, Predicate* predicate){$/;"	f	class:PSelectNode
+PSelectNode	../demo/pselectnode.h	/^class PSelectNode : public PGetNextNode{$/;"	c
+PT_EQUALS	../interface/interface.h	/^  PT_EQUALS,$/;"	e	enum:PredicateType
+PT_GREATERTHAN	../interface/interface.h	/^  PT_GREATERTHAN,$/;"	e	enum:PredicateType
+Predicate	../interface/interface.h	/^  Predicate(PredicateType ptype, ValueType vtype, int attribute, int vint, char* vstr){$/;"	f	struct:Predicate
+Predicate	../interface/interface.h	/^  Predicate(const Predicate& p){$/;"	f	struct:Predicate
+Predicate	../interface/interface.h	/^struct Predicate{$/;"	s
+PredicateType	../interface/interface.h	/^enum PredicateType{$/;"	g
+QueryFactory	../demo/demo.cpp	/^class QueryFactory: $/;"	c	file:
+Reset	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::Reset(){$/;"	f	class:PCrossProductNode
+Reset	../demo/pgetnextnode.cpp	/^void PGetNextNode::Reset(){$/;"	f	class:PGetNextNode
+Reset	../demo/pjoinnode.cpp	/^void PJoinNode::Reset(){$/;"	f	class:PJoinNode
+Reset	../demo/pselectnode.cpp	/^void PSelectNode::Reset(){$/;"	f	class:PSelectNode
+ResetIterator	../interface/interface.cpp	/^void LSelectNode::ResetIterator(){$/;"	f	class:LSelectNode
+SRC	../demo/makefile	/^SRC=..\/interface\/interface.cpp pgetnextnode.cpp pselectnode.cpp pjoinnode.cpp demo.cpp pcrossproductnode.cpp$/;"	m
+VT_INT	../interface/interface.h	/^  VT_INT,$/;"	e	enum:ValueType
+VT_STRING	../interface/interface.h	/^  VT_STRING$/;"	e	enum:ValueType
+Value	../interface/interface.h	/^  Value(){$/;"	f	struct:Value
+Value	../interface/interface.h	/^  Value(char* v){$/;"	f	struct:Value
+Value	../interface/interface.h	/^  Value(int v){$/;"	f	struct:Value
+Value	../interface/interface.h	/^struct Value{$/;"	s
+ValueType	../interface/interface.h	/^enum ValueType{$/;"	g
+__P_CROSSPRODUCTNODE_H__	../demo/pcrossproductnode.h	2;"	d
+accept	../interface/interface.cpp	/^PGetNextNode* LCrossProductNode::accept(BaseQueryFactory &vis)$/;"	f	class:LCrossProductNode
+accept	../interface/interface.cpp	/^PGetNextNode* LJoinNode::accept(BaseQueryFactory &vis)$/;"	f	class:LJoinNode
+accept	../interface/interface.cpp	/^PGetNextNode* LSelectNode::accept(BaseQueryFactory &vis)$/;"	f	class:LSelectNode
+attribute	../interface/interface.h	/^  int attribute;$/;"	m	struct:Predicate
+data	../demo/pgetnextnode.h	/^    std::vector<int> data;$/;"	m	class:PGetNextNode
+dispatch	../demo/demo.cpp	/^    PGetNextNode* dispatch(LCrossProductNode &node)$/;"	f	class:QueryFactory
+dispatch	../demo/demo.cpp	/^    PGetNextNode* dispatch(LJoinNode &node)$/;"	f	class:QueryFactory
+dispatch	../demo/demo.cpp	/^    PGetNextNode* dispatch(LSelectNode &node)$/;"	f	class:QueryFactory
+input_file	../demo/pselectnode.h	/^    std::ifstream input_file;$/;"	m	class:PSelectNode
+iteratorpos	../interface/interface.h	/^    int iteratorpos;$/;"	m	class:LSelectNode
+left	../interface/interface.h	/^    LAbstractNode* left;$/;"	m	class:LAbstractNode
+left	../interface/interface.h	/^    PResultNode* left;$/;"	m	class:PResultNode
+left_fragment	../demo/pcrossproductnode.h	/^    std::vector<int>* left_fragment;$/;"	m	class:PCrossProductNode
+left_fragment	../demo/pjoinnode.h	/^    std::vector<int>* left_fragment;$/;"	m	class:PJoinNode
+left_pos	../demo/pcrossproductnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PCrossProductNode
+left_pos	../demo/pjoinnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PJoinNode
+length_base_10	../demo/pcrossproductnode.cpp	/^static int length_base_10(int x)$/;"	f	file:
+main	../demo/demo.cpp	/^int main(){$/;"	f
+nbAttr	../interface/interface.h	/^  int nbAttr;$/;"	m	struct:BaseTable
+offset1	../interface/interface.h	/^    int offset1, offset2;$/;"	m	class:LJoinNode
+offset2	../interface/interface.h	/^    int offset1, offset2;$/;"	m	class:LJoinNode
+operator =	../interface/interface.h	/^  Predicate& operator=(const Predicate& other){$/;"	f	struct:Predicate
+operator =	../interface/interface.h	/^  Value& operator=(const Value& other){$/;"	f	struct:Value
+pos	../demo/pcrossproductnode.h	/^    int pos;$/;"	m	class:PCrossProductNode
+pos	../demo/pjoinnode.h	/^    int pos;$/;"	m	class:PJoinNode
+pos	../demo/pselectnode.h	/^    int pos;$/;"	m	class:PSelectNode
+predicate	../demo/pselectnode.h	/^    Predicate* predicate;$/;"	m	class:PSelectNode
+predicates	../interface/interface.h	/^    std::vector<Predicate>* predicates;$/;"	m	class:LSelectNode
+ptype	../interface/interface.h	/^  PredicateType ptype;$/;"	m	struct:Predicate
+relpath	../interface/interface.h	/^  std::string relpath;$/;"	m	struct:BaseTable
+reset_right	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::reset_right()$/;"	f	class:PCrossProductNode
+reset_right	../demo/pjoinnode.cpp	/^void PJoinNode::reset_right()$/;"	f	class:PJoinNode
+right	../interface/interface.h	/^    PResultNode* right;$/;"	m	class:PResultNode
+right_fragment	../demo/pcrossproductnode.h	/^    std::vector<int>* right_fragment;$/;"	m	class:PCrossProductNode
+right_fragment	../demo/pjoinnode.h	/^    std::vector<int>* right_fragment;$/;"	m	class:PJoinNode
+right_pos	../demo/pcrossproductnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PCrossProductNode
+right_pos	../demo/pjoinnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PJoinNode
+rigth	../interface/interface.h	/^    LAbstractNode* rigth;$/;"	m	class:LAbstractNode
+table	../demo/pselectnode.h	/^    BaseTable* table;$/;"	m	class:PSelectNode
+table	../interface/interface.h	/^    BaseTable* table;$/;"	m	class:LSelectNode
+upd_left	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::upd_left()$/;"	f	class:PCrossProductNode
+upd_left	../demo/pjoinnode.cpp	/^void PJoinNode::upd_left()$/;"	f	class:PJoinNode
+upd_right	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::upd_right()$/;"	f	class:PCrossProductNode
+upd_right	../demo/pjoinnode.cpp	/^void PJoinNode::upd_right()$/;"	f	class:PJoinNode
+vals	../interface/interface.h	/^    Value* vals;$/;"	m	class:PResultNode
+vint	../interface/interface.h	/^  int vint;$/;"	m	struct:Predicate
+vint	../interface/interface.h	/^  int vint;$/;"	m	struct:Value
+vstr	../interface/interface.h	/^  char* vstr;$/;"	m	struct:Predicate
+vstr	../interface/interface.h	/^  char* vstr;$/;"	m	struct:Value
+vtype	../interface/interface.h	/^  ValueType vtype;$/;"	m	struct:Predicate
+vtype	../interface/interface.h	/^  ValueType vtype;$/;"	m	struct:Value
+vtypes	../interface/interface.h	/^  ValueType* vtypes;$/;"	m	struct:BaseTable
+~BaseTable	../interface/interface.h	/^  ~BaseTable(){delete[] vtypes;}$/;"	f	struct:BaseTable
+~LAbstractNode	../interface/interface.cpp	/^LAbstractNode::~LAbstractNode(){$/;"	f	class:LAbstractNode
+~LCrossProductNode	../interface/interface.cpp	/^LCrossProductNode::~LCrossProductNode()$/;"	f	class:LCrossProductNode
+~LJoinNode	../interface/interface.cpp	/^LJoinNode::~LJoinNode(){$/;"	f	class:LJoinNode
+~LSelectNode	../interface/interface.cpp	/^LSelectNode::~LSelectNode(){$/;"	f	class:LSelectNode
+~PCrossProductNode	../demo/pcrossproductnode.cpp	/^PCrossProductNode::~PCrossProductNode()$/;"	f	class:PCrossProductNode
+~PJoinNode	../demo/pjoinnode.cpp	/^PJoinNode::~PJoinNode(){$/;"	f	class:PJoinNode
+~PResultNode	../interface/interface.cpp	/^PResultNode::~PResultNode(){$/;"	f	class:PResultNode
+~PSelectNode	../demo/pselectnode.cpp	/^PSelectNode::~PSelectNode(){$/;"	f	class:PSelectNode
+~Predicate	../interface/interface.h	/^  ~Predicate(){delete[] vstr;}$/;"	f	struct:Predicate
+~Value	../interface/interface.h	/^  ~Value(){$/;"	f	struct:Value

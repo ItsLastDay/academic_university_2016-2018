@@ -1,0 +1,253 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-leak-check	../demo/makefile	/^	valgrind --leak-check=full --track-origins=yes .\/demo$/;"	m
+AUTOM_EXHAUSTED	../demo/phashjoin.h	/^        AUTOM_EXHAUSTED,$/;"	e	enum:PHashJoin::HASHJOIN_AUTOMATA_STATE
+AUTOM_EXHAUSTED	../demo/pmergejoin.h	/^        AUTOM_EXHAUSTED,$/;"	e	enum:PMergeJoin::MERGEJOIN_AUTOMATA_STATE
+AUTOM_HASHING	../demo/phashjoin.h	/^        AUTOM_HASHING,$/;"	e	enum:PHashJoin::HASHJOIN_AUTOMATA_STATE
+AUTOM_INITIAL	../demo/phashjoin.h	/^        AUTOM_INITIAL,$/;"	e	enum:PHashJoin::HASHJOIN_AUTOMATA_STATE
+AUTOM_INITIAL	../demo/pmergejoin.h	/^        AUTOM_INITIAL,$/;"	e	enum:PMergeJoin::MERGEJOIN_AUTOMATA_STATE
+AUTOM_NEED_ADVANCE_LEFT	../demo/pmergejoin.h	/^        AUTOM_NEED_ADVANCE_LEFT,$/;"	e	enum:PMergeJoin::MERGEJOIN_AUTOMATA_STATE
+AUTOM_NEED_ADVANCE_RIGHT	../demo/pmergejoin.h	/^        AUTOM_NEED_ADVANCE_RIGHT,$/;"	e	enum:PMergeJoin::MERGEJOIN_AUTOMATA_STATE
+AUTOM_PROBING	../demo/phashjoin.h	/^        AUTOM_PROBING,$/;"	e	enum:PHashJoin::HASHJOIN_AUTOMATA_STATE
+AUTOM_PROBING_PREV	../demo/phashjoin.h	/^        AUTOM_PROBING_PREV,$/;"	e	enum:PHashJoin::HASHJOIN_AUTOMATA_STATE
+AUTOM_WORK_NORMAL	../demo/pmergejoin.h	/^        AUTOM_WORK_NORMAL,$/;"	e	enum:PMergeJoin::MERGEJOIN_AUTOMATA_STATE
+AUTOM_WRITE_PREV	../demo/pmergejoin.h	/^        AUTOM_WRITE_PREV,$/;"	e	enum:PMergeJoin::MERGEJOIN_AUTOMATA_STATE
+AdvanceRight	../demo/phashjoin.cpp	/^void PHashJoin::AdvanceRight()$/;"	f	class:PHashJoin
+BaseQueryFactory	../interface/interface.h	/^class BaseQueryFactory$/;"	c
+BaseTable	../interface/interface.h	/^  BaseTable():relpath(""), vtypes(NULL), nbAttr(0){}$/;"	f	struct:BaseTable
+BaseTable	../interface/interface.h	/^  BaseTable(BaseTable* t): relpath(t->relpath), nbAttr(t->nbAttr){$/;"	f	struct:BaseTable
+BaseTable	../interface/interface.h	/^  BaseTable(const BaseTable& t): relpath(t.relpath), nbAttr(t.nbAttr){$/;"	f	struct:BaseTable
+BaseTable	../interface/interface.h	/^struct BaseTable{$/;"	s
+CC	../demo/makefile	/^CC=g++$/;"	m
+COLUMN_SORT	../demo/pgetnextnode.h	/^enum COLUMN_SORT{$/;"	g
+CS_ASCENDING	../demo/pgetnextnode.h	/^    CS_ASCENDING,$/;"	e	enum:COLUMN_SORT
+CS_DESCENDING	../demo/pgetnextnode.h	/^    CS_DESCENDING,$/;"	e	enum:COLUMN_SORT
+CS_NO	../demo/pgetnextnode.h	/^    CS_NO,$/;"	e	enum:COLUMN_SORT
+CS_UNKNOWN	../demo/pgetnextnode.h	/^    CS_UNKNOWN$/;"	e	enum:COLUMN_SORT
+CXXFLAGS	../demo/makefile	/^CXXFLAGS=-std=c++11 -g -O0$/;"	m
+CurCount	../demo/phashjoin.h	/^    size_t CurCount;$/;"	m	class:PHashJoin
+CurState	../demo/phashjoin.h	/^    HASHJOIN_AUTOMATA_STATE CurState;$/;"	m	class:PHashJoin
+CurState	../demo/pmergejoin.h	/^    MERGEJOIN_AUTOMATA_STATE CurState;$/;"	m	class:PMergeJoin
+CurVal	../demo/phashjoin.h	/^    int CurVal;$/;"	m	class:PHashJoin
+EC_ERROR	../interface/interface.h	/^  EC_ERROR$/;"	e	enum:ErrCode
+EC_FINISH	../interface/interface.h	/^  EC_FINISH,$/;"	e	enum:ErrCode
+EC_OK	../interface/interface.h	/^  EC_OK,$/;"	e	enum:ErrCode
+ErrCode	../interface/interface.h	/^enum ErrCode{$/;"	g
+EstimateSelectivity	../demo/histogram.cpp	/^size_t Histogram::EstimateSelectivity(Predicate *pred=nullptr) const$/;"	f	class:Histogram
+ExecuteQuery	../demo/demo.cpp	/^void ExecuteQuery(PResultNode* query){$/;"	f
+FreeBaseTable	../demo/demo.cpp	/^void FreeBaseTable(BaseTable* bt){$/;"	f
+GetAttrNum	../demo/pcrossproductnode.cpp	/^int PCrossProductNode::GetAttrNum(){$/;"	f	class:PCrossProductNode
+GetAttrNum	../demo/pgetnextnode.cpp	/^int PGetNextNode::GetAttrNum(){$/;"	f	class:PGetNextNode
+GetBaseTable	../interface/interface.cpp	/^BaseTable* LSelectNode::GetBaseTable(){$/;"	f	class:LSelectNode
+GetBaseTable1	../demo/demo.cpp	/^BaseTable* GetBaseTable1(){$/;"	f
+GetBaseTable2	../demo/demo.cpp	/^BaseTable* GetBaseTable2(){$/;"	f
+GetBaseTable3	../demo/demo.cpp	/^BaseTable* GetBaseTable3(){$/;"	f
+GetBigTable	../demo/demo.cpp	/^BaseTable* GetBigTable(){$/;"	f
+GetCombinedStatus	../demo/pgetnextnode.cpp	/^COLUMN_SORT GetCombinedStatus(COLUMN_SORT left_status, COLUMN_SORT right_status)$/;"	f
+GetLeft	../interface/interface.cpp	/^LAbstractNode* LAbstractNode::GetLeft(){$/;"	f	class:LAbstractNode
+GetMemoryLimit	../interface/interface.cpp	/^size_t LJoinNode::GetMemoryLimit() const$/;"	f	class:LJoinNode
+GetNext	../demo/pcrossproductnode.cpp	/^std::vector<int>* PCrossProductNode::GetNext(){$/;"	f	class:PCrossProductNode
+GetNext	../demo/pgetnextnode.cpp	/^std::vector<int>* PGetNextNode::GetNext(){$/;"	f	class:PGetNextNode
+GetNext	../demo/phashjoin.cpp	/^std::vector<int>* PHashJoin::GetNext(){$/;"	f	class:PHashJoin
+GetNext	../demo/pjoinnode.cpp	/^std::vector<int>* PJoinNode::GetNext(){$/;"	f	class:PJoinNode
+GetNext	../demo/pmergejoin.cpp	/^std::vector<int>* PMergeJoin::GetNext(){$/;"	f	class:PMergeJoin
+GetNext	../demo/pselectnode.cpp	/^std::vector<int>* PSelectNode::GetNext(){$/;"	f	class:PSelectNode
+GetNextPredicate	../interface/interface.cpp	/^int LSelectNode::GetNextPredicate(Predicate** p){$/;"	f	class:LSelectNode
+GetRecord	../demo/pcrossproductnode.cpp	/^ErrCode PCrossProductNode::GetRecord(){$/;"	f	class:PCrossProductNode
+GetRecord	../demo/phashjoin.cpp	/^ErrCode PHashJoin::GetRecord(){$/;"	f	class:PHashJoin
+GetRecord	../demo/pjoinnode.cpp	/^ErrCode PJoinNode::GetRecord(){$/;"	f	class:PJoinNode
+GetRecord	../demo/pmergejoin.cpp	/^ErrCode PMergeJoin::GetRecord(){$/;"	f	class:PMergeJoin
+GetRecord	../demo/pselectnode.cpp	/^ErrCode PSelectNode::GetRecord(){$/;"	f	class:PSelectNode
+GetRight	../interface/interface.cpp	/^LAbstractNode* LAbstractNode::GetRight(){$/;"	f	class:LAbstractNode
+GetSortednessStatus	../demo/pgetnextnode.cpp	/^COLUMN_SORT PGetNextNode::GetSortednessStatus()$/;"	f	class:PGetNextNode
+GetValuePos	../demo/pcrossproductnode.cpp	/^Value* PCrossProductNode::GetValuePos(){$/;"	f	class:PCrossProductNode
+GetValuePos	../demo/phashjoin.cpp	/^Value* PHashJoin::GetValuePos(){$/;"	f	class:PHashJoin
+GetValuePos	../demo/pjoinnode.cpp	/^Value* PJoinNode::GetValuePos(){$/;"	f	class:PJoinNode
+GetValuePos	../demo/pmergejoin.cpp	/^Value* PMergeJoin::GetValuePos(){$/;"	f	class:PMergeJoin
+GetValuePos	../demo/pselectnode.cpp	/^Value* PSelectNode::GetValuePos(){$/;"	f	class:PSelectNode
+HASHJOIN_AUTOMATA_STATE	../demo/phashjoin.h	/^    enum HASHJOIN_AUTOMATA_STATE$/;"	g	class:PHashJoin
+Histogram	../demo/histogram.cpp	/^Histogram::Histogram()$/;"	f	class:Histogram
+Histogram	../demo/histogram.cpp	/^Histogram::Histogram(Histogram const& le, Histogram const& rg)$/;"	f	class:Histogram
+Histogram	../demo/histogram.cpp	/^Histogram::Histogram(std::vector<int> &all_values, size_t total_size)$/;"	f	class:Histogram
+Histogram	../demo/histogram.h	/^struct Histogram$/;"	s
+INTERFACE_H	../interface/interface.h	15;"	d
+Initialize	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::Initialize(){$/;"	f	class:PCrossProductNode
+Initialize	../demo/pgetnextnode.cpp	/^void PGetNextNode::Initialize(){$/;"	f	class:PGetNextNode
+Initialize	../demo/phashjoin.cpp	/^void PHashJoin::Initialize(){$/;"	f	class:PHashJoin
+Initialize	../demo/pjoinnode.cpp	/^void PJoinNode::Initialize(){$/;"	f	class:PJoinNode
+Initialize	../demo/pmergejoin.cpp	/^void PMergeJoin::Initialize(){$/;"	f	class:PMergeJoin
+Initialize	../demo/pselectnode.cpp	/^void PSelectNode::Initialize(){$/;"	f	class:PSelectNode
+LAbstractNode	../interface/interface.cpp	/^LAbstractNode::LAbstractNode(LAbstractNode* left, LAbstractNode* right){$/;"	f	class:LAbstractNode
+LAbstractNode	../interface/interface.h	/^class LAbstractNode{$/;"	c
+LCrossProductNode	../interface/interface.cpp	/^LCrossProductNode::LCrossProductNode(LAbstractNode *left, LAbstractNode *right): LAbstractNode(left, right)$/;"	f	class:LCrossProductNode
+LCrossProductNode	../interface/interface.h	/^class LCrossProductNode : public LAbstractNode{$/;"	c
+LJoinNode	../interface/interface.cpp	/^LJoinNode::LJoinNode(LAbstractNode* left, LAbstractNode* right,$/;"	f	class:LJoinNode
+LJoinNode	../interface/interface.h	/^class LJoinNode : public LAbstractNode{$/;"	c
+LProjectNode	../interface/interface.cpp	/^LProjectNode::LProjectNode(LAbstractNode* child, int* offsets,$/;"	f	class:LProjectNode
+LProjectNode	../interface/interface.h	/^class LProjectNode : public LAbstractNode{$/;"	c
+LSelectNode	../interface/interface.cpp	/^LSelectNode::LSelectNode(BaseTable* table,$/;"	f	class:LSelectNode
+LSelectNode	../interface/interface.h	/^class LSelectNode : public LAbstractNode{$/;"	c
+LUniqueNode	../interface/interface.cpp	/^LUniqueNode::LUniqueNode(LAbstractNode* child):LAbstractNode(child, NULL){$/;"	f	class:LUniqueNode
+LUniqueNode	../interface/interface.h	/^class LUniqueNode : public LAbstractNode{$/;"	c
+MAXLEN	../interface/interface.h	/^const int MAXLEN = 1000;$/;"	v
+MAX_BYTE_SIZE	../demo/pgetnextnode.h	/^    const size_t MAX_BYTE_SIZE = 100;$/;"	m	class:PGetNextNode
+MERGEJOIN_AUTOMATA_STATE	../demo/pmergejoin.h	/^    enum MERGEJOIN_AUTOMATA_STATE$/;"	g	class:PMergeJoin
+MakeHistogram	../demo/pgetnextnode.cpp	/^void PGetNextNode::MakeHistogram(size_t sample_size)$/;"	f	class:PGetNextNode
+MakeHistogram	../demo/pselectnode.cpp	/^void PSelectNode::MakeHistogram(size_t sample_size)$/;"	f	class:PSelectNode
+OBJ	../demo/makefile	/^OBJ=..\/interface\/interface.o pgetnextnode.o pselectnode.o pjoinnode.o demo.o pcrossproductnode.o pmergejoin.o phashjoin.o histogram.o$/;"	m
+PCrossProductNode	../demo/pcrossproductnode.cpp	/^PCrossProductNode::PCrossProductNode(PGetNextNode *left, PGetNextNode *right)$/;"	f	class:PCrossProductNode
+PCrossProductNode	../demo/pcrossproductnode.h	/^class PCrossProductNode: public PGetNextNode $/;"	c
+PGETNEXTNODE_H	../demo/pgetnextnode.h	13;"	d
+PGetNextNode	../demo/pgetnextnode.cpp	/^PGetNextNode::PGetNextNode(): PResultNode(NULL, NULL){$/;"	f	class:PGetNextNode
+PGetNextNode	../demo/pgetnextnode.cpp	/^PGetNextNode::PGetNextNode(PResultNode* left, PResultNode* right): PResultNode(left, right){$/;"	f	class:PGetNextNode
+PGetNextNode	../demo/pgetnextnode.h	/^class PGetNextNode : public PResultNode{$/;"	c
+PHASHJOIN_H	../demo/phashjoin.h	2;"	d
+PHashJoin	../demo/phashjoin.cpp	/^PHashJoin::PHashJoin(PGetNextNode* left, PGetNextNode* right): PHashJoin(left, right, CS_UNKNOWN){$/;"	f	class:PHashJoin
+PHashJoin	../demo/phashjoin.cpp	/^PHashJoin::PHashJoin(PGetNextNode* left, PGetNextNode* right,$/;"	f	class:PHashJoin
+PHashJoin	../demo/phashjoin.h	/^class PHashJoin : public PGetNextNode{$/;"	c
+PJOINNODE_H	../demo/pjoinnode.h	13;"	d
+PJoinNode	../demo/pjoinnode.cpp	/^PJoinNode::PJoinNode(PGetNextNode* left, PGetNextNode* right): PJoinNode(left, right, CS_UNKNOWN){$/;"	f	class:PJoinNode
+PJoinNode	../demo/pjoinnode.cpp	/^PJoinNode::PJoinNode(PGetNextNode* left, PGetNextNode* right,$/;"	f	class:PJoinNode
+PJoinNode	../demo/pjoinnode.h	/^class PJoinNode : public PGetNextNode{$/;"	c
+PMERGEJOIN_H	../demo/pmergejoin.h	2;"	d
+PMergeJoin	../demo/pmergejoin.cpp	/^PMergeJoin::PMergeJoin(PGetNextNode* left, PGetNextNode* right): PMergeJoin(left, right, CS_UNKNOWN){$/;"	f	class:PMergeJoin
+PMergeJoin	../demo/pmergejoin.cpp	/^PMergeJoin::PMergeJoin(PGetNextNode* left, PGetNextNode* right,$/;"	f	class:PMergeJoin
+PMergeJoin	../demo/pmergejoin.h	/^class PMergeJoin : public PGetNextNode{$/;"	c
+PResultNode	../interface/interface.cpp	/^PResultNode::PResultNode(PResultNode* left, PResultNode* right){$/;"	f	class:PResultNode
+PResultNode	../interface/interface.h	/^class PResultNode{$/;"	c
+PSELECTNODE_H	../demo/pselectnode.h	13;"	d
+PSelectNode	../demo/pselectnode.cpp	/^PSelectNode::PSelectNode(){}$/;"	f	class:PSelectNode
+PSelectNode	../demo/pselectnode.cpp	/^PSelectNode::PSelectNode(BaseTable* table, Predicate* predicate): PGetNextNode(){$/;"	f	class:PSelectNode
+PSelectNode	../demo/pselectnode.h	/^class PSelectNode : public PGetNextNode{$/;"	c
+PT_EQUALS	../interface/interface.h	/^  PT_EQUALS,$/;"	e	enum:PredicateType
+PT_GREATERTHAN	../interface/interface.h	/^  PT_GREATERTHAN,$/;"	e	enum:PredicateType
+Predicate	../interface/interface.h	/^  Predicate(PredicateType ptype, ValueType vtype, int attribute, int vint, char* vstr){$/;"	f	struct:Predicate
+Predicate	../interface/interface.h	/^  Predicate(const Predicate& p){$/;"	f	struct:Predicate
+Predicate	../interface/interface.h	/^struct Predicate{$/;"	s
+PredicateType	../interface/interface.h	/^enum PredicateType{$/;"	g
+Print	../demo/histogram.cpp	/^void Histogram::Print(int indent) const$/;"	f	class:Histogram
+Print	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::Print(int indent){$/;"	f	class:PCrossProductNode
+Print	../demo/phashjoin.cpp	/^void PHashJoin::Print(int indent){$/;"	f	class:PHashJoin
+Print	../demo/pjoinnode.cpp	/^void PJoinNode::Print(int indent){$/;"	f	class:PJoinNode
+Print	../demo/pmergejoin.cpp	/^void PMergeJoin::Print(int indent){$/;"	f	class:PMergeJoin
+Print	../demo/pselectnode.cpp	/^void PSelectNode::Print(int indent){$/;"	f	class:PSelectNode
+QueryFactory	../demo/demo.cpp	/^class QueryFactory: $/;"	c	file:
+QueryHistogram	../demo/pgetnextnode.cpp	/^size_t PGetNextNode::QueryHistogram(Predicate* pred) const$/;"	f	class:PGetNextNode
+Reset	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::Reset(){$/;"	f	class:PCrossProductNode
+Reset	../demo/pgetnextnode.cpp	/^void PGetNextNode::Reset(){$/;"	f	class:PGetNextNode
+Reset	../demo/phashjoin.cpp	/^void PHashJoin::Reset(){$/;"	f	class:PHashJoin
+Reset	../demo/pjoinnode.cpp	/^void PJoinNode::Reset(){$/;"	f	class:PJoinNode
+Reset	../demo/pmergejoin.cpp	/^void PMergeJoin::Reset(){$/;"	f	class:PMergeJoin
+Reset	../demo/pselectnode.cpp	/^void PSelectNode::Reset(){$/;"	f	class:PSelectNode
+ResetAutomataState	../demo/phashjoin.cpp	/^void PHashJoin::ResetAutomataState()$/;"	f	class:PHashJoin
+ResetAutomataState	../demo/pmergejoin.cpp	/^void PMergeJoin::ResetAutomataState()$/;"	f	class:PMergeJoin
+ResetIterator	../interface/interface.cpp	/^void LSelectNode::ResetIterator(){$/;"	f	class:LSelectNode
+SRC	../demo/makefile	/^SRC=..\/interface\/interface.cpp pgetnextnode.cpp pselectnode.cpp pjoinnode.cpp demo.cpp pcrossproductnode.cpp pmergejoin.cpp phashjoin.cpp histogram.cpp$/;"	m
+UpdLeft	../demo/phashjoin.cpp	/^void PHashJoin::UpdLeft()$/;"	f	class:PHashJoin
+UpdLeft	../demo/pmergejoin.cpp	/^void PMergeJoin::UpdLeft()$/;"	f	class:PMergeJoin
+UpdRight	../demo/phashjoin.cpp	/^void PHashJoin::UpdRight()$/;"	f	class:PHashJoin
+UpdRight	../demo/pmergejoin.cpp	/^void PMergeJoin::UpdRight()$/;"	f	class:PMergeJoin
+VT_INT	../interface/interface.h	/^  VT_INT,$/;"	e	enum:ValueType
+VT_STRING	../interface/interface.h	/^  VT_STRING$/;"	e	enum:ValueType
+Value	../interface/interface.h	/^  Value(){$/;"	f	struct:Value
+Value	../interface/interface.h	/^  Value(char* v){$/;"	f	struct:Value
+Value	../interface/interface.h	/^  Value(int v){$/;"	f	struct:Value
+Value	../interface/interface.h	/^struct Value{$/;"	s
+ValueType	../interface/interface.h	/^enum ValueType{$/;"	g
+__P_CROSSPRODUCTNODE_H__	../demo/pcrossproductnode.h	2;"	d
+accept	../interface/interface.cpp	/^PGetNextNode* LCrossProductNode::accept(BaseQueryFactory &vis)$/;"	f	class:LCrossProductNode
+accept	../interface/interface.cpp	/^PGetNextNode* LJoinNode::accept(BaseQueryFactory &vis)$/;"	f	class:LJoinNode
+accept	../interface/interface.cpp	/^PGetNextNode* LSelectNode::accept(BaseQueryFactory &vis)$/;"	f	class:LSelectNode
+attribute	../interface/interface.h	/^  int attribute;$/;"	m	struct:Predicate
+count_elems	../demo/phashjoin.h	/^    std::unordered_map<int, size_t> count_elems;$/;"	m	class:PHashJoin
+cur_left_cnt	../demo/pmergejoin.h	/^    size_t cur_left_cnt;$/;"	m	class:PMergeJoin
+data	../demo/pgetnextnode.h	/^    std::vector<int> data;  $/;"	m	class:PGetNextNode
+dispatch	../demo/demo.cpp	/^    PGetNextNode* dispatch(LCrossProductNode &node)$/;"	f	class:QueryFactory
+dispatch	../demo/demo.cpp	/^    PGetNextNode* dispatch(LJoinNode &node)$/;"	f	class:QueryFactory
+dispatch	../demo/demo.cpp	/^    PGetNextNode* dispatch(LSelectNode &node)$/;"	f	class:QueryFactory
+histogram	../demo/pgetnextnode.h	/^    Histogram histogram;$/;"	m	class:PGetNextNode
+input_file	../demo/pselectnode.h	/^    std::ifstream input_file;$/;"	m	class:PSelectNode
+is_combined_histogram	../demo/histogram.h	/^    bool is_combined_histogram;$/;"	m	struct:Histogram
+iteratorpos	../interface/interface.h	/^    int iteratorpos;$/;"	m	class:LSelectNode
+left	../interface/interface.h	/^    LAbstractNode* left;$/;"	m	class:LAbstractNode
+left	../interface/interface.h	/^    PResultNode* left;$/;"	m	class:PResultNode
+left_fragment	../demo/pcrossproductnode.h	/^    std::vector<int>* left_fragment;$/;"	m	class:PCrossProductNode
+left_fragment	../demo/phashjoin.h	/^    std::vector<int>* left_fragment;$/;"	m	class:PHashJoin
+left_fragment	../demo/pjoinnode.h	/^    std::vector<int>* left_fragment;$/;"	m	class:PJoinNode
+left_fragment	../demo/pmergejoin.h	/^    std::vector<int>* left_fragment;$/;"	m	class:PMergeJoin
+left_pos	../demo/pcrossproductnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PCrossProductNode
+left_pos	../demo/phashjoin.h	/^    size_t left_pos, right_pos;$/;"	m	class:PHashJoin
+left_pos	../demo/pjoinnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PJoinNode
+left_pos	../demo/pmergejoin.h	/^    size_t left_pos, right_pos;$/;"	m	class:PMergeJoin
+length_base_10	../demo/pcrossproductnode.cpp	/^static int length_base_10(int x)$/;"	f	file:
+main	../demo/demo.cpp	/^int main(){$/;"	f
+memorylimit	../interface/interface.h	/^    int memorylimit;$/;"	m	class:LJoinNode
+nbAttr	../interface/interface.h	/^  int nbAttr;$/;"	m	struct:BaseTable
+nboffset	../interface/interface.h	/^    int nboffset;$/;"	m	class:LProjectNode
+num_steps	../demo/histogram.h	/^    int num_steps;$/;"	m	struct:Histogram
+number_of_elems	../demo/histogram.h	/^    size_t number_of_elems;$/;"	m	struct:Histogram
+offset1	../interface/interface.h	/^    int offset1, offset2;$/;"	m	class:LJoinNode
+offset2	../interface/interface.h	/^    int offset1, offset2;$/;"	m	class:LJoinNode
+offsets	../interface/interface.h	/^    int* offsets;$/;"	m	class:LProjectNode
+operator <<	../interface/interface.h	/^inline std::ostream& operator<<(std::ostream& stream, const BaseTable& bt){$/;"	f
+operator <<	../interface/interface.h	/^inline std::ostream& operator<<(std::ostream& stream, const Predicate& p){$/;"	f
+operator =	../interface/interface.h	/^  Predicate& operator=(const Predicate& other){$/;"	f	struct:Predicate
+operator =	../interface/interface.h	/^  Value& operator=(const Value& other){$/;"	f	struct:Value
+override	../demo/pselectnode.h	/^    void MakeHistogram(size_t sample_size=1064) override;$/;"	m	class:PSelectNode
+pos	../demo/pcrossproductnode.h	/^    int pos;$/;"	m	class:PCrossProductNode
+pos	../demo/phashjoin.h	/^    size_t pos;$/;"	m	class:PHashJoin
+pos	../demo/pjoinnode.h	/^    int pos;$/;"	m	class:PJoinNode
+pos	../demo/pmergejoin.h	/^    int pos;$/;"	m	class:PMergeJoin
+pos	../demo/pselectnode.h	/^    int pos;$/;"	m	class:PSelectNode
+predicate	../demo/pselectnode.h	/^    Predicate* predicate;$/;"	m	class:PSelectNode
+predicates	../interface/interface.h	/^    std::vector<Predicate>* predicates;$/;"	m	class:LSelectNode
+prev_left_cnt	../demo/pmergejoin.h	/^    size_t prev_left_cnt;$/;"	m	class:PMergeJoin
+ptype	../interface/interface.h	/^  PredicateType ptype;$/;"	m	struct:Predicate
+relpath	../interface/interface.h	/^  std::string relpath;$/;"	m	struct:BaseTable
+reset_right	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::reset_right()$/;"	f	class:PCrossProductNode
+reset_right	../demo/pjoinnode.cpp	/^void PJoinNode::reset_right()$/;"	f	class:PJoinNode
+right	../interface/interface.h	/^    PResultNode* right;$/;"	m	class:PResultNode
+right_fragment	../demo/pcrossproductnode.h	/^    std::vector<int>* right_fragment;$/;"	m	class:PCrossProductNode
+right_fragment	../demo/phashjoin.h	/^    std::vector<int>* right_fragment;$/;"	m	class:PHashJoin
+right_fragment	../demo/pjoinnode.h	/^    std::vector<int>* right_fragment;$/;"	m	class:PJoinNode
+right_fragment	../demo/pmergejoin.h	/^    std::vector<int>* right_fragment;$/;"	m	class:PMergeJoin
+right_pos	../demo/pcrossproductnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PCrossProductNode
+right_pos	../demo/phashjoin.h	/^    size_t left_pos, right_pos;$/;"	m	class:PHashJoin
+right_pos	../demo/pjoinnode.h	/^    size_t left_pos, right_pos;$/;"	m	class:PJoinNode
+right_pos	../demo/pmergejoin.h	/^    size_t left_pos, right_pos;$/;"	m	class:PMergeJoin
+rigth	../interface/interface.h	/^    LAbstractNode* rigth;$/;"	m	class:LAbstractNode
+sorted	../demo/pgetnextnode.h	/^    COLUMN_SORT sorted;$/;"	m	class:PGetNextNode
+steps	../demo/histogram.h	/^    std::vector<int> steps;$/;"	m	struct:Histogram
+table	../demo/pselectnode.h	/^    BaseTable* table;$/;"	m	class:PSelectNode
+table	../interface/interface.h	/^    BaseTable* table;$/;"	m	class:LSelectNode
+upd_left	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::upd_left()$/;"	f	class:PCrossProductNode
+upd_left	../demo/pjoinnode.cpp	/^void PJoinNode::upd_left()$/;"	f	class:PJoinNode
+upd_right	../demo/pcrossproductnode.cpp	/^void PCrossProductNode::upd_right()$/;"	f	class:PCrossProductNode
+upd_right	../demo/pjoinnode.cpp	/^void PJoinNode::upd_right()$/;"	f	class:PJoinNode
+vals	../interface/interface.h	/^    Value* vals;$/;"	m	class:PResultNode
+vint	../interface/interface.h	/^  int vint;$/;"	m	struct:Predicate
+vint	../interface/interface.h	/^  int vint;$/;"	m	struct:Value
+vstr	../interface/interface.h	/^  char* vstr;$/;"	m	struct:Predicate
+vstr	../interface/interface.h	/^  char* vstr;$/;"	m	struct:Value
+vtype	../interface/interface.h	/^  ValueType vtype;$/;"	m	struct:Predicate
+vtype	../interface/interface.h	/^  ValueType vtype;$/;"	m	struct:Value
+vtypes	../interface/interface.h	/^  ValueType* vtypes;$/;"	m	struct:BaseTable
+~BaseTable	../interface/interface.h	/^  ~BaseTable(){delete[] vtypes;}  $/;"	f	struct:BaseTable
+~LAbstractNode	../interface/interface.cpp	/^LAbstractNode::~LAbstractNode(){$/;"	f	class:LAbstractNode
+~LCrossProductNode	../interface/interface.cpp	/^LCrossProductNode::~LCrossProductNode()$/;"	f	class:LCrossProductNode
+~LJoinNode	../interface/interface.cpp	/^LJoinNode::~LJoinNode(){$/;"	f	class:LJoinNode
+~LProjectNode	../interface/interface.cpp	/^LProjectNode::~LProjectNode(){$/;"	f	class:LProjectNode
+~LSelectNode	../interface/interface.cpp	/^LSelectNode::~LSelectNode(){$/;"	f	class:LSelectNode
+~LUniqueNode	../interface/interface.cpp	/^LUniqueNode::~LUniqueNode(){$/;"	f	class:LUniqueNode
+~PCrossProductNode	../demo/pcrossproductnode.cpp	/^PCrossProductNode::~PCrossProductNode()$/;"	f	class:PCrossProductNode
+~PHashJoin	../demo/phashjoin.cpp	/^PHashJoin::~PHashJoin(){$/;"	f	class:PHashJoin
+~PJoinNode	../demo/pjoinnode.cpp	/^PJoinNode::~PJoinNode(){$/;"	f	class:PJoinNode
+~PMergeJoin	../demo/pmergejoin.cpp	/^PMergeJoin::~PMergeJoin(){$/;"	f	class:PMergeJoin
+~PResultNode	../interface/interface.cpp	/^PResultNode::~PResultNode(){$/;"	f	class:PResultNode
+~PSelectNode	../demo/pselectnode.cpp	/^PSelectNode::~PSelectNode(){$/;"	f	class:PSelectNode
+~Predicate	../interface/interface.h	/^  ~Predicate(){delete[] vstr;}$/;"	f	struct:Predicate
+~Value	../interface/interface.h	/^  ~Value(){$/;"	f	struct:Value
