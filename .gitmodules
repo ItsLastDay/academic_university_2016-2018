@@ -31,7 +31,7 @@
 	url = git@github.com:ItsLastDay/java-2-au-course.git
 	branch = ha4
 [submodule "subjects/au-linux-kernel-autumn-2017"]
-	path = subjects/au-linux-kernel-autumn-2017
+	path = subjects/LinuxKernel
 	url = git@github.com:ItsLastDay/au-linux-kernel-autumn-2017.git
 	branch = master
 [submodule "subjects/au_dl_course"]
