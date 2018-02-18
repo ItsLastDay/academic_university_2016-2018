@@ -38,3 +38,7 @@
 	path = subjects/DeepLearning
 	url = git@github.com:ItsLastDay/au_dl_course.git
 	branch = master
+[submodule "projects/FindMyShoes"]
+	path = projects/FindMyShoes
+	url = git@github.com:ItsLastDay/FindMyShoes.git
+	branch = master

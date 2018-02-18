@@ -1,6 +1,7 @@
 This folder contains links to other repositories with my projects:
 - [Kotlin Fuzzer](https://github.com/ItsLastDay/KotlinFuzzer): fuzzer for Kotlin programming language compiler. Found 66 bugs in 1 month. Is being used by Kotlin compiler team;
 - [StackOverflow Map](https://github.com/ItsLastDay/StackOverflow_Map): visualization of tags of popular website StackOverflow. You can look at the result [here](https://tag-map.github.io/);
+- [Find My Shoes](https://github.com/ItsLastDay/FindMyShoes): information retrieval system for finding shoes by description;
 - [Maze generator written in Idris](https://github.com/ItsLastDay/idris-a-mazing): implemented simple program in functional programming language with dependent types;
 
 As well as repositories with work from hackathons:
