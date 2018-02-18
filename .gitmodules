@@ -35,6 +35,6 @@
 	url = git@github.com:ItsLastDay/au-linux-kernel-autumn-2017.git
 	branch = master
 [submodule "subjects/au_dl_course"]
-	path = subjects/au_dl_course
+	path = subjects/DeepLearning
 	url = git@github.com:ItsLastDay/au_dl_course.git
 	branch = master
