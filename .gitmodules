@@ -26,3 +26,7 @@
 	path = projects/hackathons/magic-box
 	url = git@github.com:funtechhackday/magic-box.git
 	branch = master
+[submodule "subjects/Java/java-2-au-course"]
+	path = subjects/Java/java-2-au-course
+	url = git@github.com:ItsLastDay/java-2-au-course.git
+	branch = ha4
