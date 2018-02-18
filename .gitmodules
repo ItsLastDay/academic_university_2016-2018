@@ -1,0 +1,24 @@
+[submodule "KotlinFuzzer"]
+	path = projects/KotlinFuzzer
+	url = git@github.com:ItsLastDay/KotlinFuzzer.git
+	branch = master
+[submodule "idris-a-mazing"]
+	path = projects/idris-a-mazing
+	url = git@github.com:ItsLastDay/idris-a-mazing.git
+	branch = master
+[submodule "stackoverflow_map"]
+	path = projects/stackoverflow_map
+	url = git@github.com:ItsLastDay/stackoverflow_map.git
+	branch = master
+[submodule "projects/hackathons/eight"]
+	path = projects/hackathons/eight
+	url = git@github.com:ItsLastDay/eight.git
+	branch = master
+[submodule "projects/hackathons/Cheat-program"]
+	path = projects/hackathons/Cheat-program
+	url = git@github.com:lesya-tishencko/Cheat-program.git
+	branch = master
+[submodule "projects/hackathons/pipinstall"]
+	path = projects/hackathons/pipinstall
+	url = git@github.com:ItsLastDay/pipinstall.git
+	branch = master
