@@ -12,6 +12,7 @@ Subjects presented in this repo (with links to more thorough README-s and some h
 low-level things. I implemented buddy allocator, slab allocator, malloc and a small filesystem;
 - [Programming in Linux kernel](https://github.com/ItsLastDay/au-linux-kernel-autumn-2017/blob/master/README.md): implemented driver for virtual storage device (the hardest task was about asynchronous and non-blocking IO); implemented futex.
 - [Databases](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/subjects/Databases/README.md): implemented half of a small one-columnar relational database (another half was written as a stub by our teacher), featuring *Volcano* architecture, histograms and various `join` operations (hash join, merge join, nested loop join);
+- [Virtual machines](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/subjects/VirtualMachines/mathvm/README.md): implemented bytecode emitter and translator for a simple programming language;
 
 
 ## Software engineering
