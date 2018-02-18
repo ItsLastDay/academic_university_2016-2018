@@ -22,3 +22,7 @@
 	path = projects/hackathons/pipinstall
 	url = git@github.com:ItsLastDay/pipinstall.git
 	branch = master
+[submodule "projects/hackathons/magic-box"]
+	path = projects/hackathons/magic-box
+	url = git@github.com:funtechhackday/magic-box.git
+	branch = master
