@@ -6,5 +6,6 @@ This folder contains links to other repositories with my projects:
 As well as repositories with work from hackathons:
 - [Eight](https://github.com/ItsLastDay/Eight): map of Saint-Petersburg with predicted criminality of each place. It also can find safe routes through the city;
 - [Cheat program for Minesweeper](https://github.com/lesya-tishencko/Cheat-program): implemented program for one instance of Minesweeper game, so that it scans memory of the game and marks all mines;
-- [Pip install](https://github.com/ItsLastDay/PipInstall): attempt to predict "truthfulness" of user reviews in e-shops.
+- [Pip install](https://github.com/ItsLastDay/PipInstall): attempt to predict "truthfulness" of user reviews in e-shops;
+- [Magic box](https://github.com/funtechhackday/magic-box/tree/b65b895c8bef0fad6414b4a89b5139698d58f115): simple Android+Unity application that shows a chest with a hand raising out of it.
 
