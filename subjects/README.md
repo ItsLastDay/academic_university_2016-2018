@@ -7,7 +7,7 @@ Subjects presented in this repo (with links to more thorough README-s and some h
 - [Haskell](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/subjects/Haskell/README.md): dived into the world of functional programming, worked with a couple of things (including applicative functors, monads, lenses);
 - Idris: wrote a couple of tasks using functional language with dependent types - Idris. Highlight: *very* simple [database](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/Idris/idris-spb-assignment-1-ItsLastDay/part%203/datastore.idr);
 
-## Low-level programming
+## Systems programming
 - [Operating Systems](https://github.com/ItsLastDay/academic_university_2016-2018/blob/master/subjects/OperatingSystems/README.md): wrote basic Linux kernel based on QEMU. I'm proud that I worked with interrupts, virtual memory mapping and other sorts of
 low-level things. I implemented buddy allocator, slab allocator, malloc and a small filesystem;
 - [Programming in Linux kernel](https://github.com/ItsLastDay/au-linux-kernel-autumn-2017/blob/master/README.md): implemented driver for virtual storage device (the hardest task was about asynchronous and non-blocking IO); implemented futex.
